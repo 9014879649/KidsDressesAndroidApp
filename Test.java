@@ -3,10 +3,11 @@ class Test{
   //Thank You :)
   
   int b = 25;
+  int c;
   
   public int add(int a, int b){
     
-    int c = a + b;
+     c = a + b;
      return c;
     
   }
