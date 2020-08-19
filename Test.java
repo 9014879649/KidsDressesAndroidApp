@@ -1,10 +1,15 @@
 class Test{
-  int a = 10;
+  int a ;
   //Thank You :)
   
-  int b = 25;
+  int b ;
   
-  public int add(int a, int b){
+  Test(int a, int b){
+    this.a = a;
+    this.b = b;
+  }
+  
+  public int add(){
     
     int c = a + b;
      return c;
